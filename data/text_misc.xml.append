@@ -1,0 +1,94 @@
+<FTL>
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    MARKERS
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<text name="map_icon_fr_commonwealthdrone">#T...\...1 [!]#</text>
+<text name="map_icon_fr_tartarus_start">#START#</text>
+<text name="map_icon_fr_salt_quest">#SALT [!]#</text>
+<text name="map_icon_fr_tartarus_final">#FINAL BOUNTY/EXIT [!]#</text>
+<text name="map_icon_fr_wither">#RUINS? [!]#</text>
+<text name="map_icon_fr_commonwealth_portal">#STRANGE SIGNATURE [!]#</text>
+<text name="map_icon_fr_commonwealth_factory">#FACTORY [!]#</text>
+<text name="map_icon_fr_commonwealth_rift">#EXIT PORTAL [!]#</text>
+<text name="map_icon_fr_cel_probe">#PROBE LOCATED#</text>
+
+<text name="map_icon_fr_commonwealth_store">STORE [COMMONWEALTH]</text>
+
+<text name="map_icon_fr_slimer_apparition">@SLIMER [!]@</text>
+<text name="map_icon_fr_phys_apparition">@PHYS [!]@</text>
+<text name="map_icon_fr_aleenor_apparition">@ALEENOR [!]@</text>
+<text name="map_icon_fr_vin_apparition">@VIN [!]@</text>
+<text name="map_icon_fr_cleo_apparition">@CLEO [!]@</text>
+<text name="map_icon_fr_zulu_apparition">@ZULU [!]@</text>
+<text name="map_icon_fr_g_apparition">@G [!]@</text>
+<text name="map_icon_fr_deadship_apparition">@THE DEADSHIP [!]@</text>
+
+<text name="map_icon_fr_smoke_apparition">@SMOKE [!]@</text>
+<text name="map_icon_fr_chills_apparition">@CHILLS [!]@</text>
+<text name="map_icon_fr_pok_apparition">@POK [!]@</text>
+<text name="map_icon_fr_charror_apparition">@CHARROR [!]@</text>
+<text name="map_icon_fr_leo_apparition">@LEO [!]@</text>
+<text name="map_icon_fr_searak_apparition">@SEARAK [!]@</text>
+<text name="map_icon_fr_auto_apparition">@AUTO [!]@</text>
+<text name="map_icon_fr_watcher_apparition">@WATCHER [!]@</text>
+<text name="map_icon_fr_flagship_apparition">@FLAGSHIP [!]@</text>
+
+<text name="map_icon_fr_augustus_apparition">@AUGUSTUS [!]@</text>
+<text name="map_icon_fr_sally_apparition">@SALLY [!]@</text>
+<text name="map_icon_fr_prince_apparition">@PRINCE [!]@</text>
+<text name="map_icon_fr_tririac_apparition">@TRIRIAC [!]@</text>
+
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    TIPS
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<text name="tip_fr_revenant">Tip: Revenant weapons are mysterious pieces of technology forged in the depths of Tartarus. They are very strong, but often highly specialized.</text>
+<text name="tip_fr_wither_crew">Tip: Aenwithe's crew drones do not have the capability to withstand switching modes, and are too complex for Technopaths to replicate. They can, however, be very powerful.</text>
+<text name="tip_fr_mfk_loot_1">MFK LOOT
+System damage is converted to hull damage
+Fire chance is converted to breach chance
+Has hullbust</text>
+<text name="tip_fr_fish_food">Tip: Check the storage menu to use the fish.</text>
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    ENDING
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<text name="fr_credit_victory_commonwealth">Congratulations, you've completed the Forgotten Races' Ending! Though this is the end to the story, obviously there's always more runs to be had. We hope you've had fun with the addon so far!</text>
+<text name="fr_credit_victory_commonwealth_bad">...</text>
+
+<!--
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+			                    META
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+-->
+
+<text name="addon_hover_fr">FORGOTTEN RACES
+    Currently Enabled.
+    Click to see more info.</text>
+<text name="info_addon_fr">FORGOTTEN RACES
+    Developed by Gabriel Cooper and HereticChurch
+    Currently Enabled.
+
+	This addon expands on a number of canonical races, such as the Commonwealth, Salt, and Osmians, and reimplements a scrapped concept from old Multiverse plans in the form of a brand new secret sector and meta-progression component.
+
+	It also adds 128 new playable ships, 137 weapons and drones, 49 new crew types, and a variety of new bosses to fight. Explore the long-forgotten secrets of the Multiverse like you've never seen before... and indulge in a little bit of power along the way.
+</text>
+
+</FTL>

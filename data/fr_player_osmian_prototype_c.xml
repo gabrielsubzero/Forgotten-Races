@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Copyright (c) 2012 by Subset Games. All rights reserved.-->
+<img x="-72" y="-26" w="599" h="260" />
+<offsets>
+	<floor x="66" y="20" />
+	<cloak x="-1" y="1" />
+</offsets>
+<weaponMounts>
+	<mount x="558" y="52" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="557" y="236" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="494" y="30" rotate="true" mirror="true" gib="-1" slide="up" />
+	<mount x="494" y="253" rotate="true" mirror="false" gib="-1" slide="down" />
+	<mount x="489" y="150" rotate="true" mirror="true" gib="-1" slide="no" />
+</weaponMounts>
+
+<mv-hullAnims>
+	<hullAnim x="423" y="68">fr_osmian_black_hole_animation_c</hullAnim>
+</mv-hullAnims>
+
+<explosion />
+

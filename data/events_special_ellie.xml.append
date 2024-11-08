@@ -1,0 +1,44 @@
+<FTL>
+
+<mod:findName type="event" name="ELLIE_SAMMY_WIN">
+    <mod:findLike type="choice"><!-- what? seriously?! -->
+        <mod:findLike type="event">
+            <mod:findLike type="choice"><!-- stop ellie | watch in horror -->
+                <mod:findLike type="event">
+                    <mod:findLike type="choice"><!-- take stephan | convince stephan | take ellie | leave ellie -->
+                        <mod:findWithChildLike type="event" child-type="removeCrew">
+                            <mod:selector class="unique_ellie_stephan" />
+                            <!-- the event where unique_ellie_stephan is removed i.e. the one under convince stephan -->
+							<mod-append:choice>
+								<text>Continue...</text>
+								<event load="FR_RECUIT_SAMMY"/>
+							</mod-append:choice>
+                        </mod:findWithChildLike>
+                    </mod:findLike>
+                </mod:findLike>
+            </mod:findLike>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<event name="FR_RECUIT_SAMMY">
+	<text>Suddenly, as Stephan is being taken away, you hear a familiar voice call out to you. It was Sammy! He's running towards you, the costume clearly being a huge hindrance to his movement. "Renegade! Hold on a moment!"</text>
+	<choice hidden="true">
+		<text>Sammy?</text>
+		<event>
+			<text>Sammy stops to breathe when he reaches you, huffing and puffing as he snaps back. "N-name's Michael!"
+			
+			"R-regardless, I think I'd like to tag along with you, actually! My family lives all the way over in Node 17, and... the higher-ups kinda just fired me for 'breaking character in the middle of the show'."</text>
+			<choice hidden="true">
+				<text>Sure thing, Sammy!</text>
+				<event>
+					<text>He sighs. "...Michael. At least they let me keep the costume. They said the blood splatters made it a liability and a health hazard... oh boy, can today get any worse!?"</text>
+					<achievement silent="false">ACH_FR_EVENT_SAMMY</achievement>
+					<crewMember amount="1" all_skills="2" class="fr_unique_sammy">Michael</crewMember>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+</FTL>
